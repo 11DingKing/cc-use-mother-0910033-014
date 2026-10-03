@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-0910033-014"
+version = "0.1.0"
+description = "讲解主题资格图的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []
