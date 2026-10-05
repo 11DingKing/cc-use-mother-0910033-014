@@ -1,6 +1,15 @@
 [project]
 name = "domain-contract-0910033-014"
 version = "0.1.0"
-description = "讲解主题资格图的领域约定与校验工具"
+description = "讲解主题资格图的领域约定、校验工具与资格图后端"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+qualification-graph-api = "qualification_graph.api:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
